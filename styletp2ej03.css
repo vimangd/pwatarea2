@@ -39,5 +39,15 @@ img {
     border-radius: 20px;
 }
 #imagen {
-    transition: all ease 2s;
+    transition: all ease .8s;
+}
+@media(min-width: 720px){
+    img {
+        height: 50vh;
+    }
+}
+@media(min-width: 1080px){
+    img{
+        height: 80vh;
+    }
 }
